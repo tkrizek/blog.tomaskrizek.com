@@ -4,9 +4,11 @@ title: Getting started with gpg2
 tags:
   - pgp
 seealso:
+  - link: /2017/03/11/code-signing-in-git/
+    label: "Code signing in git"
   - link: /
     label: "[TODO] Working with gpg2 and keyservers"
-update: 2017-03-07
+update: 2017-03-12
 ---
 
 This article describes how to configure your environment, generate a [PGP](/2017/03/03/introduction-to-pgp/) keypair and backup your private key.
@@ -48,7 +50,7 @@ fingerprint   2BB553947645C5829937FB63B2F27B7221DCD363
 keyid-format 0xlong
 ```
 
-### GPG agent
+### <a name="gpg-agent"></a> GPG agent
 
 If you don't want to enter your passphrase every time you send an e-mail or create a commit, you can set up a GPG agent.
 
