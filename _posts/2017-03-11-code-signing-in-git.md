@@ -37,7 +37,7 @@ $ git commit --amend -S
 $ git rebase -S
 ```
 
-However, it's much more convenient to configure git to use PGP signing by default.
+However, it's much more convenient to configure git to use PGP signing by default. This only works for Git 2.0.0 and above.
 
 ```console
 $ git config --global commit.gpgsign true
