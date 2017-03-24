@@ -88,7 +88,7 @@ $ git config --global alias.l "log --show-signature"
 You can verify a tag's signature with:
 
 ```console
-git verify-tag release-x-y
+$ git verify-tag release-x-y
 ```
 
 And check if the tag is signed with a trusted and valid key.
@@ -125,12 +125,12 @@ The second approach is the only option if the maintainers decide to modify your 
 When code is distributed in a tarball, you can sign the file and distribute the signature with it.
 
 ```console
-gpg2 --armor --detach-sign project.tar.gz
+$ gpg2 --armor --detach-sign project.tar.gz
 ```
 
 This will create a detached armored signature file `project.tar.gz.asc`. You can verify the signature.
 
 ```console
-gpg2 --verify project.tar.gz.asc
+$ gpg2 --verify project.tar.gz.asc
 ```
 
