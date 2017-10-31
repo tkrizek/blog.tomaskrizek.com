@@ -6,8 +6,8 @@ tags:
 seealso:
   - link: /2017/03/11/code-signing-in-git/
     label: "Code signing in git"
-  - link: /
-    label: "[TODO] Working with gpg2 and keyservers"
+  - link: /2017/10/31/pgp-key-signing/
+    label: "PGP Key Signing"
 update: 2017-03-12
 ---
 
