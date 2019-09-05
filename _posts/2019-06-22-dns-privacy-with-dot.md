@@ -24,9 +24,8 @@ your private data? Be sure to check out the privacy policies of those big DoT
 providers.
 
 In the spirit of decentralization, I'd like to encourage you to consider using
-a privacy-oriented resolver that doesn't log your queries or IP address, such
-as [dns.dns-tls.com](https://github.com/tomaskrizek/resolver-dns-tls-deploy)
-(operated by me), some of those listed at
+a privacy-oriented resolver that doesn't log your queries or IP address.
+You may want to consider the resolvers listed at
 [dnsprivacy.org](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Test+Servers)
 or run by nonprofit organizations, such as [CZ.NIC's ODVR](https://www.nic.cz/odvr/).
 
