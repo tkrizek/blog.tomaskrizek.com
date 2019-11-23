@@ -1,4 +1,6 @@
-# tomaskrizek.github.io blog sources
+# blog.tomaskrizek.com blog sources
+
+See [blog.tomaskrizek.com](https://blog.tomaskrizek.com) for the content.
 
 ## Setup
 
