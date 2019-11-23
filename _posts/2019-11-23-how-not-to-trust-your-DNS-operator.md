@@ -73,9 +73,13 @@ Resolver:
 -- this one turns off default DNS-over-HTTPS in Firefox!
 policy.add(policy.suffix(policy.DENY, {todname('use-application-dns.net')}))
 
+seed_offset = 42  -- your unique offset
+days_stable = 7   -- how often to re-slice (requires kresd restart)
+seed = (os.time() + seed_offset) / (3600 * 24 * days_stable)
+
 -- TLS-forward 6 distinct slices up to 12 resolvers (with both IPv4 and IPv6)
 policy.add(policy.slice(
-	policy.slice_randomize_psl(),
+	policy.slice_randomize_psl(seed),
 	policy.TLS_FORWARD({
 		{'199.58.81.218', hostname='dns.cmrg.net'},
 		{'2001:470:1c:76d::53', hostname='dns.cmrg.net'},
