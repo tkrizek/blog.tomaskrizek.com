@@ -1,9 +1,11 @@
 ---
 layout: post
-title: DNS Privacy with DoT
+title: DNS Privacy with DNS-over-TLS (DoT)
+permalink: /2019/06/22/dns-privacy-with-dot/
 tags:
   - dns
   - dot
+  - privacy
 update: 2019-11-23
 ---
 
