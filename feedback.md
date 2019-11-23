@@ -11,4 +11,6 @@ date: 2017-03-08
 
 Please let me know if you have some feedback.
 
-You can open an [issue](https://github.com/tomaskrizek/tomaskrizek.github.io/issues) or a [pull request](https://github.com/tomaskrizek/tomaskrizek.github.io/pulls) on GitHub.
+You can open an
+[issue](https://github.com/tomaskrizek/blog.tomaskrizek.com/issues) or a [pull
+request](https://github.com/tomaskrizek/blog.tomaskrizek.com/pulls) on GitHub.
