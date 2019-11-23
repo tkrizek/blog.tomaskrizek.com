@@ -4,7 +4,7 @@ title: DNS Privacy with DoT
 tags:
   - dns
   - dot
-update: 2019-06-22
+update: 2019-11-23
 ---
 
 Almost every internet communication begins with a DNS query. These are commonly
@@ -21,7 +21,9 @@ local resolver and forward your queries over TLS to another resolver. However,
 this comes with another issue - who are you forwarding your queries to? What
 will they do with your queries? Does their bussiness model include data mining
 your private data? Be sure to check out the privacy policies of those big DoT
-providers.
+providers. (UPDATE 2019-11-23: read [this
+post](/2019/11/23/how-not-to-trust-your-DNS-operator/) for even better
+solution).
 
 In the spirit of decentralization, I'd like to encourage you to consider using
 a privacy-oriented resolver that doesn't log your queries or IP address.
