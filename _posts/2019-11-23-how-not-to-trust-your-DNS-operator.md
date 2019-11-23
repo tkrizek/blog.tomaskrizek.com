@@ -1,8 +1,11 @@
 ---
 layout: post
-title: How not to trust your DNS operator
+title: How not to trust your DNS resolver's operator
+permalink: /2019/11/23/how-not-to-trust-your-DNS-operator/
 tags:
   - dns
+  - privacy
+  - knot-resolver
 update: 2019-11-23
 ---
 
