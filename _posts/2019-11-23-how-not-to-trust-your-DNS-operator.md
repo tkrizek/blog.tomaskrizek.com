@@ -121,7 +121,7 @@ policy.add(policy.slice(
 
 Note that in some cases, the impact on privacy might be negative. Specifically,
 if a website uses multiple registrable domains to deliver content (e.g.
-`twitter.com` and `twimg.com`), these queries might be exposoed to different
+`twitter.com` and `twimg.com`), these queries might be exposed to different
 resolvers.
 
 However, I believe the overall impact on privacy is positive. It decentralizes
