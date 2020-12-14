@@ -11,6 +11,8 @@ update: 2020-12-14
 > **TL;DR** If you're using git to track your dotfiles, make sure to separate
 > the git directory using worktrees. Being able to call git directly in your
 > home directory can have unexpected and potentially destructive consequences.
+>
+> git responsibly.
 
 A few years ago, I've started tracking my configuration files in my home
 directory with git. I was happy with my solution, since it was simple and
